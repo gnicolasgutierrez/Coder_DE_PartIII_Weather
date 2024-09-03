@@ -1,0 +1,14 @@
+# Ignorar archivos de Docker
+*.log
+logs/
+*.pid
+.env
+__pycache__/
+
+# Ignorar archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas de volúmenes de Docker
+postgres-db-volume/
+redis-volume/
